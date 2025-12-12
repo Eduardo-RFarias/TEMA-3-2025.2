@@ -1,0 +1,22 @@
+[project]
+name = "tema3"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "editdistance>=0.8.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "ruff>=0.14.8",
+]
+
+[tool.ruff]
+line-length = 120
